@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-pacakge-test",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Test Package",
   "main": "index.js",
   "scripts": {
@@ -55,7 +55,7 @@
       [
         "@semantic-release/exec",
         {
-          "prepareCmd": "./release.sh ${nextRelease.version}"
+          "prepareCmd": "npm run versionChange --version ${nextRelease.version}"
         }
       ]
     ]
