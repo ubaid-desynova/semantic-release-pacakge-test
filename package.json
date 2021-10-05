@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "versionChange": "node ./versionChange.js",
+    "versionChange": "echo \"versionChange command\" && node ./versionChange.js",
     "commit": "git-cz",
     "prepare": "husky install",
     "semantic-release": "semantic-release"
