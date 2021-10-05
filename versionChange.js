@@ -1,1 +1,2 @@
-console.log('process.argv check Arguments', process.argv, process.env);
+var argv = require('minimist')(process.argv.slice(2));
+console.log("Version --->", argv.version);

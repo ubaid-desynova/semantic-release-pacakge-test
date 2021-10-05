@@ -1,11 +1,11 @@
 {
   "name": "semantic-release-pacakge-test",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Test Package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "versionChange": "echo \"versionChange command\" && node ./versionChange.js",
+    "versionChange": "node ./versionChange.js",
     "commit": "git-cz",
     "prepare": "husky install",
     "semantic-release": "semantic-release"
