@@ -1,1 +1,1 @@
-console.log('process.argv', process.argv);
+console.log('process.argv check Arguments', process.argv, process.env);
