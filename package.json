@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-pacakge-test",
-  "version": "1.1.3",
+  "version": "2.0.1",
   "description": "Test Package",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,8 @@
     "versionChange": "node ./versionChange.js",
     "commit": "git-cz",
     "prepare": "husky install",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "release": "standard-version"
   },
   "author": "ubaid@desynova.com",
   "license": "ISC",
