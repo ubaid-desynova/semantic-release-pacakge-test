@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/ubaid-desynova/semantic-release-pacakge-test/compare/v2.1.0...v2.1.1) (2021-10-06)
+
+
+### Bug Fixes
+
+* small Bug fix ([9757c39](https://github.com/ubaid-desynova/semantic-release-pacakge-test/commit/9757c39170dce9d93fe0ae3147e749997a654d18))
+
 ## [2.1.0](https://github.com/ubaid-desynova/semantic-release-pacakge-test/compare/v2.0.1...v2.1.0) (2021-10-06)
 
 
